@@ -1,7 +1,7 @@
 {
   "doctype": "DocType",
   "name": "Demo DocType",
-  "module": "Custom App",
+  "module": "InfraBeat Test",
   "custom": 1,
   "fields": [
     {
