@@ -4,6 +4,8 @@ app_publisher = "InfraBeat"
 app_description = "Test app for InfraBeat"
 app_email = "itsupport@infrabeat.com"
 app_license = "mit"
+
+fixtures = ["Custom Field", "Property Setter", "Custom Script", "Print Format", "Report", "Workflow"]
 # required_apps = []
 
 # Includes in <head>
