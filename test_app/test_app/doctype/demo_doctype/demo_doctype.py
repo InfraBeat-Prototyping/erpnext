@@ -1,4 +1,13 @@
-from frappe.model.document import Document
+from frappe import _
 
-class DemoDoctype(Document):
-    pass
+def get_data():
+    return [
+        {
+            "module_name": "Custom App",
+            "color": "grey",
+            "icon": "octicon octicon-file-directory",
+            "type": "module",
+            "label": _("Custom App")
+        }
+    ]
+
